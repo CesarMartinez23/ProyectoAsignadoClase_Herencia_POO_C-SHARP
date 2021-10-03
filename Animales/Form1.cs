@@ -30,14 +30,14 @@ namespace Animales
             MessageBox.Show("FELINOS");
 
             //Leon
-            leon.setcomer("El leon casa animales para comer.");
+            leon.setcomer("El leon caza animales para comer.");
             leon.sethacerRuido("Un Leon de gran tamaño le hace guarrrr");
 
             MessageBox.Show(leon.getcomer());
             MessageBox.Show(leon.gethacerRuido());
 
             //Tigre
-            tigre.setcomer("El tigre casa animales pequeños para comer carne.");
+            tigre.setcomer("El tigre caza animales pequeños para comer carne.");
             tigre.sethacerRuido("Un tigre muy pequeño ruge en la selva");
 
             MessageBox.Show(tigre.getcomer());
@@ -56,7 +56,7 @@ namespace Animales
             MessageBox.Show("CANINOS");
 
             //Lobo
-            lobo.setcomer("Los lobos casan en grupos grandes para comida grande como ciervos, alces, ovejas, cabras, caribúes, bisontes, y muskox.");
+            lobo.setcomer("Los lobos cazan en grupos grandes para comida grande como ciervos, alces, ovejas, cabras, caribúes, bisontes, y muskox.");
             lobo.sethacerRuido("El lobo aullaaa muy fuerte a pesar de ser un lobito chiquito");
 
             MessageBox.Show(lobo.getcomer());
@@ -66,7 +66,7 @@ namespace Animales
             perro.setcomer("El cachorro come perigri");
             perro.sethacerRuido("El perro grande ladra mucho por las noches");
             perro.setVacunar("Al perrito le pusieron la vacuna de la rabia.");
-            perro.setVacunar("Al perri lo sacan a pasear para que haga popo");
+            perro.setsacarPaseo("Al perri lo sacan a pasear para que haga popo");
 
             MessageBox.Show(perro.getcomer());
             MessageBox.Show(perro.gethacerRuido());
