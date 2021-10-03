@@ -10,5 +10,6 @@ namespace Animales
     //Class child to Canino
     class Lobo : Canino 
     {
+
     }
 }

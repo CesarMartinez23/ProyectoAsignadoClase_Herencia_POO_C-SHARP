@@ -20,24 +20,42 @@ namespace Animales
 
         // Create Methods
 
-        public string hacerRuido()
+        public string gethacerRuido()
         {
-            return "";
+            return _tamano;
+        }
+        public void sethacerRuido(string Tamano)
+        {
+            _tamano = Tamano;
         }
 
-        public string comer()
+        public string getcomer()
         {
-            return "";
+            return _comida;
+        }
+        public void setcomer(string Comida)
+        {
+            _comida = Comida;
         }
 
-        public string dormir()
+        public string getdormir()
         {
-            return "";
+            return _foto;
         }
 
-        public string rugir()
+        public void setdormir(string Foto)
         {
-            return "";
+            _foto = Foto;
+        }
+
+        public string getrugir()
+        {
+            return _localizacion;
+        }
+
+        public void setrugir(string Localizacion)
+        {
+            _localizacion = Localizacion;
         }
     }
 }
