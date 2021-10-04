@@ -24,7 +24,7 @@ namespace Animales
         {
             return _tamano;
         }
-        public void sethacerRuido(string Tamano)
+        public virtual void sethacerRuido(string Tamano)
         {
             _tamano = Tamano;
         }
@@ -33,7 +33,7 @@ namespace Animales
         {
             return _comida;
         }
-        public void setcomer(string Comida)
+        public virtual void setcomer(string Comida)
         {
             _comida = Comida;
         }
@@ -43,7 +43,7 @@ namespace Animales
             return _foto;
         }
 
-        public void setdormir(string Foto)
+        public virtual void setdormir(string Foto)
         {
             _foto = Foto;
         }
@@ -53,9 +53,14 @@ namespace Animales
             return _localizacion;
         }
 
-        public void setrugir(string Localizacion)
+        public virtual void setrugir(string Localizacion)
         {
             _localizacion = Localizacion;
+        }
+
+        public virtual string getAnimals()
+        {
+            return getcomer() + " . " + gethacerRuido();
         }
     }
 }

@@ -30,5 +30,10 @@ namespace Animales
         {
             _sacarPaseo = SacarPaseo;
         }
+
+        public override string getAnimals()
+        {
+            return base.getAnimals() + " . " + getVacunar() + " . " + getsacarPaseo();
+        }
     }
 }

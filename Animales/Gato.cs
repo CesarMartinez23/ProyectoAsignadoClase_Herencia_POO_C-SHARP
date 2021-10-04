@@ -21,5 +21,10 @@ namespace Animales
         {
             _vacuna = Vacuna;
         }
+
+        public override string getAnimals()
+        {
+            return base.getAnimals() + " . " + getVacunar();
+        }
     }
 }
